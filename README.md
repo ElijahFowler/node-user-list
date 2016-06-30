@@ -4,7 +4,7 @@ A little node user list that saves to a PostgreSQL database.
 
 After cloning run "npm install".
 
-You need a PostgreSQL database named 'node-hero' and a table named 'users' with 2 columns.
+You need a PostgreSQL database named 'node_hero' and a table named 'users' with 2 columns.
 
 To create DB:
 ```sql
