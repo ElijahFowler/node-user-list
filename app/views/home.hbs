@@ -1,0 +1,20 @@
+<h1>Welcome!!!</h1>
+
+<nav>
+	<ul style="list-style: none outside none; margin: 0 0 10px; padding-left: 0;">
+		<li>
+			<a href="/users">[ Edit Users ]</a>
+		</li>
+	</ul>
+</nav>
+
+<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse;" width="200">
+	<tbody>
+	{{#each rows}}
+		<tr>
+			<th align="left">{{this.name}}:</th>
+			<td align="right">{{this.age}}</td>
+		</tr>
+	{{/each}}
+	</tbody>
+</table>
