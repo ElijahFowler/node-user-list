@@ -8,7 +8,7 @@ const pg = require('pg')
 const bodyParser = require('body-parser')
 
 const app = express()
-const conString = 'postgres://node-hero_user:P@ssword1@localhost/node-hero'
+const conString = 'postgres://node-hero_user:P@ssword1@localhost/node_hero'
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
