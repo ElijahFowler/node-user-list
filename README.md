@@ -8,7 +8,7 @@ You need a PostgreSQL database named 'node-hero' and a table named 'users' with 
 
 To create DB:
 ```sql
-CREATE DATABASE node-hero;
+CREATE DATABASE node_hero;
 ```
 
 To create Table:
